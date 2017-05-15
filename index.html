@@ -1,0 +1,362 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>我的演说 - @演说.io</title>
+
+    <meta name="keywords" content="演说，yanshuo, yanshuo.io, 演说.io, 空中演说, 展示文稿, HTML 展示文稿, Web 展示文稿" />
+  	  <meta name="description" content="创作真正跨平台的 HTML5 展示文稿，让你的分享到达世界的任何一个角落" />
+
+  		<meta name="apple-mobile-web-app-capable" content="yes">
+  		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  		<!-- Reveal base style -->
+  		<link rel="stylesheet" href="./assets/reveal.min.css">
+
+  		<!-- Yanshuo.io seed style -->
+  		<link rel="stylesheet" href="./assets/at-block.min.css">
+  		<link rel="stylesheet" href="./assets/at-hljs-theme-bundler.min.css">
+  		<link rel="stylesheet" href="./assets/at-reveal-default-theme.min.css">
+
+  		<!-- Source Sans Web Fonts -->
+  		<link rel="stylesheet" href="./assets/source-sans-pro.css">
+
+      <!-- Printing and PDF exports -->
+      <script>
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? './assets/pdf.css' : '';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+      </script>
+
+      <!--[if lt IE 9]>
+  		<script src="lib/js/html5shiv.js"></script>
+  		<![endif]-->
+
+  		<!-- style for "critical path" -->
+  		<style>
+  	  </style>
+  </head>
+  <body>
+    <!-- TODO: a lightweighted loading -->
+
+    <!-- main slides -->
+    <div id="YS" class="at-code-lh-12" style="width:100%;height:100%;" data-reveal-theme="serif" data-highlight-theme="github" data-ys-title="我的演说" data-ys-user="toloric" data-ys-transition="slide" data-ys-backgroundTransition="default" data-ys-transitionSpeed="default" data-ys-fv="2"><style>
+
+  /*********************************************
+   * THEME: serif
+   *********************************************/
+
+  /*********************************************
+   * Yanshuo Inject
+   *********************************************/
+
+   .hljs{
+     
+   }
+
+  /*********************************************
+   * GLOBAL STYLES
+   *********************************************/
+
+  body, .reveal, .reveal-preview {
+  	background-color: #F0F1EB;
+  }
+
+  .reveal, .reveal-preview  {
+    font-family: Times, Times New Roman, Palatino Linotype, Book Antiqua, Palatino, FreeSerif, serif;
+    color: #000;
+  }
+
+  ::selection {
+  	background: #26351C;
+  }
+
+  /*********************************************
+   * HEADERS
+   *********************************************/
+
+  .reveal h1, .reveal-preview h1,
+  .reveal h2, .reveal-preview h2,
+  .reveal h3, .reveal-preview h3,
+  .reveal h4, .reveal-preview h4,
+  .reveal h5, .reveal-preview h5,
+  .reveal h6, .reveal-preview h6 {
+    font-family: Times, Times New Roman, Palatino Linotype, Book Antiqua, Palatino, FreeSerif, serif;
+  	color: #383D3D;
+  }
+
+
+  /*********************************************
+   * LINKS
+   *********************************************/
+
+  .reveal a, .reveal-preview a {
+  	color: #51483D;
+    text-decoration: undefined;
+  }
+  	.reveal a:hover, .reveal-preview a:hover {
+  		color: rgb(99, 88, 75);
+  	}
+
+
+  /*********************************************
+   * NAVIGATION CONTROLS
+   *********************************************/
+
+  .reveal .controls .navigate-left,
+  .reveal .controls .navigate-left.enabled {
+  	border-right-color: #51483D;
+  }
+
+  .reveal .controls .navigate-right,
+  .reveal .controls .navigate-right.enabled {
+  	border-left-color: #51483D;
+  }
+
+  .reveal .controls .navigate-up,
+  .reveal .controls .navigate-up.enabled {
+  	border-bottom-color: #51483D;
+  }
+
+  .reveal .controls .navigate-down,
+  .reveal .controls .navigate-down.enabled {
+  	border-top-color: #51483D;
+  }
+
+  .reveal .controls .navigate-left.enabled:hover {
+  	border-right-color: rgb(99, 88, 75);
+  }
+
+  .reveal .controls .navigate-right.enabled:hover {
+  	border-left-color: rgb(99, 88, 75);
+  }
+
+  .reveal .controls .navigate-up.enabled:hover {
+  	border-bottom-color: rgb(99, 88, 75);
+  }
+
+  .reveal .controls .navigate-down.enabled:hover {
+  	border-top-color: rgb(99, 88, 75);
+  }
+
+  /*********************************************
+   * PROGRESS BAR
+   *********************************************/
+
+  .reveal .progress span {
+  	background: #51483D;
+
+</style><div class="reveal"><div class="slides"><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:-6.909385113268598px;top:207px;width:970.8737864077668px;height:auto00;" class="at-block at-block--pure"><article class="at-block-content"><h1>提升线上服务的稳定性</h1></article></div><div style="left:84.17799352750808px;top:476.09385113268604px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><h2>2017/05/03 Hugo</h2></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:79px;top:100px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><h1>为什么不稳定</h1></article></div><div style="left:62.466019417475735px;top:340px;width:880.2588996763754px;height:auto0;" class="at-block at-block--pure"><article class="at-block-content"><ul><li>代码质量不够好，潜在问题多</li><li>上线前的潜在问题没发现，或非生产环境无法发现</li><li>线上故障没有及早发现，等着用户、客户去发现</li><li>发现问题后不易定位和修复问题</li></ul></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:72.52750809061489px;top:32.27508090614887px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><h1>期望目标</h1></article></div><div style="left:85.88349514563107px;top:188.96116504854373px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><ul><li><span style="font-size:28px">编写整洁、bug 少的代码</span></li><li><span style="font-size:28px">有充分的文档和注释</span></li><li><span style="font-size:28px">有工具约束与他人评审</span></li><li><span style="font-size:28px">能够自动化构建</span></li><li><span style="font-size:28px">连续运行所有单元测试、集成测试</span></li><li><span style="font-size:28px">能够生成完整的代码覆盖率报告</span></li><li><span style="font-size:28px">自动部署到测试、生产环境</span></li><li><span style="font-size:28px">线上监控与告警</span></li><li><span style="font-size:28px">及时响应并解决问题</span></li></ul><p style="text-align:right"><span style="font-size:22px">（部分引用自 Mark Ethan Trostler）</span></p></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:77.70550161812298px;top:100px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><h1>如何做</h1></article></div><div style="left:78.41100323624596px;top:340px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><ol><li>保证代码质量</li><li>代码评审（code review）</li><li>自动化测试</li><li>持续集成、持续部署</li><li>线上监控</li></ol></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:79px;top:270px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><h1>1&nbsp;保证代码质量</h1></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:77.70550161812298px;top:100px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><h2>1.1 编写符合需求的代码</h2></article></div><div style="left:79px;top:340px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><ul><li>理解清楚需求</li></ul></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:44.04854368932041px;top:368.4142394822006px;width:881.5533980582525px;height:306.31067961165047px;" class="at-block at-block--pure"><article class="at-block-content MarkdownBlock"><pre class="hljs"><code class="lang-html">&lt;input <span class="hljs-class"><span class="hljs-keyword">type</span></span>=<span class="hljs-string">"checkbox"</span> id=<span class="hljs-string">"input1"</span> v-model=<span class="hljs-string">"selected"</span> /&gt;
+&lt;input <span class="hljs-class"><span class="hljs-keyword">type</span></span>=<span class="hljs-string">"checkbox"</span> id=<span class="hljs-string">"input2"</span> v-model=<span class="hljs-string">"selected"</span> /&gt;
+</code></pre>
+<pre class="hljs"><code class="lang-js"><span class="hljs-class"><span class="hljs-keyword">data</span>() {
+  <span class="hljs-title">return</span> {
+    <span class="hljs-title">selected</span>: []       ❌
+  }</span>
+}
+</code></pre>
+</article></div><div style="left:84.17799352750808px;top:59.48220064724923px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><h3 style="text-align:left">需求文档</h3><h3 style="text-align:left">&nbsp;</h3><p style="text-align:left">选择某项，点击确认，将这一项写入某处。</p><p style="text-align:left">&nbsp;</p><h3 style="text-align:left"><span style="color:#D33115">错误的</span>代码实现<br>&nbsp;</h3></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:69.93851132686085px;top:94.8220064724919px;width:825.8899676375405px;height:auto00;" class="at-block at-block--pure"><article class="at-block-content"><h2>1.2 编写没有低级错误的代码</h2></article></div><div style="left:79px;top:340px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><ul><li>编程语言基本的语法、流程控制的正确使用</li><li>具体业务基本的参数校验、错误处理等</li></ul></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:41.459546925566364px;top:218.7864077669903px;width:881.5533980582525px;height:435.7605177993527px;" class="at-block at-block--pure"><article class="at-block-content MarkdownBlock"><pre class="hljs"><code class="lang-js">router.get(<span class="hljs-string">'/'</span>, (req, res, next) =&gt; {
+  const { <span class="hljs-selector-tag">a</span>, <span class="hljs-selector-tag">b</span> } = req<span class="hljs-selector-class">.query</span>
+  <span class="hljs-keyword">if</span> (a) { res.send(<span class="hljs-selector-tag">a</span> + <span class="hljs-number">1</span>) }                      ❌
+  <span class="hljs-keyword">if</span> (b) { res.send(<span class="hljs-selector-tag">b</span> + <span class="hljs-number">3</span>) }
+  throw new Error(<span class="hljs-string">'a or b is required.'</span>)
+})
+</code></pre>
+<pre class="hljs"><code class="lang-js">router.post(<span class="hljs-string">'/'</span>, (req, res, <span class="hljs-keyword">next</span>) =&gt; {
+  <span class="hljs-keyword">const</span> { arr, str } = req.body
+  <span class="hljs-keyword">const</span> x = arr[<span class="hljs-number">2</span>]                                ❌
+  <span class="hljs-keyword">const</span> y = str.slice(<span class="hljs-number">0</span>, <span class="hljs-number">3</span>)
+  res.<span class="hljs-built_in">send</span>(x + y)
+})
+</code></pre>
+</article></div><div style="left:74.64401294498381px;top:99.2621359223301px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><h3 style="text-align:left"><span style="color:#D33115">错误的</span>代码实现</h3></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:79px;top:100px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><h2>1.3&nbsp;编写规范的代码</h2></article></div><div style="left:79px;top:340px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><ul><li>利用已有的规范检查工具，进行规范与修复</li><li>工具无法规范的部分，如命名、存在多种写法、注释等</li></ul></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:40.165048543689345px;top:216.7864077669903px;width:881.5533980582525px;height:435.7605177993527px;" class="at-block at-block--pure"><article class="at-block-content MarkdownBlock"><pre class="hljs"><code class="lang-js"><span class="hljs-keyword">const</span> taskID, searchword, dataResult(<span class="hljs-keyword">Array</span>)  ❌
+<span class="hljs-keyword">const</span> taskId, searchWord, dataResults        ✔️ 但不推荐
+<span class="hljs-keyword">const</span> taskId, keyword, searchResults         ✅ 推荐
+</code></pre>
+<pre class="hljs"><code class="lang-js"><span class="hljs-keyword">if</span> (<span class="hljs-literal">true</span>) <span class="hljs-number">1</span>       ❌
+
+<span class="hljs-keyword">if</span> (<span class="hljs-literal">true</span>)      
+<span class="hljs-number">1</span>                 ❌
+
+<span class="hljs-keyword">if</span> (<span class="hljs-literal">true</span>) { <span class="hljs-number">1</span> }   ✅
+</code></pre>
+</article></div><div style="left:73.3495145631068px;top:99.2621359223301px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><h3 style="text-align:left">示例</h3></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:85.4724919093851px;top:251.00647249190936px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><ul><li style="text-align:left"><span style="font-size:24px">类、类属性、类方法的注释使用&nbsp;/**&nbsp;*/ ( JSDoc 注释)，不得使用 // 方式</span></li><li style="text-align:left"><span style="font-size:24px">方法内部单行注释，在被注释语句上方另起一行，使用 // 注释。方法内部多行注释使用 /**&nbsp;*/ 注释</span></li><li style="text-align:left"><span style="font-size:24px">注释掉的代码尽量要配合说明</span></li><li style="text-align:left"><span style="font-size:24px">代码或注释修改后要同步更改</span></li><li style="text-align:left"><p><span style="font-size:24px">特殊注释标记，注明标记人与标记时间：待办事宜（TODO） 、错误/不能工作（FIXME）</span></p></li></ul></article></div><div style="left:76.3495145631068px;top:99.2621359223301px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><h3 style="text-align:left">注释</h3></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:77.70550161812298px;top:100px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><h2>1.4&nbsp;编写可理解、可测试、可维护的代码</h2></article></div><div style="left:79px;top:340px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><ul><li>短小、整洁、简单、松耦合的代码块</li><li>合理的代码组织结构</li></ul></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:-1.5533980582524123px;top:-93.8252427184466px;width:964.401294498382px;height:880.5825242718447px;" class="at-block at-block--pure"><article class="at-block-content MarkdownBlock"><pre class="hljs"><code class="lang-js">export <span class="hljs-keyword">class</span> <span class="hljs-title">Observer</span> {
+  <span class="hljs-keyword">value</span>: any;
+  dep: Dep;
+  vmCount: number; <span class="hljs-comment">// number of vms that has this object as root $data</span>
+
+  constructor (<span class="hljs-keyword">value</span>: any) {
+    <span class="hljs-keyword">this</span>.<span class="hljs-keyword">value</span> = <span class="hljs-keyword">value</span>
+    <span class="hljs-keyword">this</span>.dep = <span class="hljs-keyword">new</span> Dep()
+    <span class="hljs-keyword">this</span>.vmCount = <span class="hljs-number">0</span>
+    def(<span class="hljs-keyword">value</span>, <span class="hljs-string">'__ob__'</span>, <span class="hljs-keyword">this</span>)
+    <span class="hljs-keyword">if</span> (Array.isArray(<span class="hljs-keyword">value</span>)) {
+      <span class="hljs-keyword">const</span> augment = hasProto
+        ? protoAugment
+        : <span class="hljs-function">copyAugment
+      <span class="hljs-title">augment</span>(<span class="hljs-params"><span class="hljs-keyword">value</span>, arrayMethods, arrayKeys</span>)
+      <span class="hljs-keyword">this</span>.<span class="hljs-title">observeArray</span>(<span class="hljs-params"><span class="hljs-keyword">value</span></span>)
+    } <span class="hljs-keyword">else</span> </span>{
+      <span class="hljs-keyword">this</span>.walk(<span class="hljs-keyword">value</span>)
+    }
+  }
+
+  walk (obj: Object) {
+    <span class="hljs-keyword">const</span> keys = Object.keys(obj)
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &lt; keys.length; i++) {
+      defineReactive(obj, keys[i], obj[keys[i]])
+    }
+  }
+
+  observeArray (items: Array&lt;any&gt;) {
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>, l = items.length; i &lt; l; i++) {
+      observe(items[i])
+    }
+  }
+}
+</code></pre>
+</article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:77.41100323624596px;top:100px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><h2>1.5&nbsp;编写设计良好的代码</h2></article></div><div style="left:76.41100323624596px;top:338.705501618123px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><ul><li>深刻理解编程语言、开发框架</li><li>设计良好的实现思路，运用解决特定问题、前人经验总结、经过验证的设计模式</li><li>可复用、可扩展</li><li>性能优化</li></ul></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:0.03559870550162714px;top:0.7766990291262204px;width:959.2233009708739px;height:719.4174757281553px;" class="at-block at-block--pure"><article class="at-block-content"><iframe src='https://code.h5jun.com/luj/2/edit?js,output' data-prevent-swipe allowfullscreen></iframe></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:79px;top:270px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><h1>2 代码评审</h1></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:89.35598705501619px;top:155.8640776699029px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><h3 style="text-align:left">评审流程</h3><h3>&nbsp;</h3><ol><li>分支开发完毕，发起 merge request，指定其他人进行&nbsp;review</li><li>评审者提出评审建议，待问题全部解决之后，再进行&nbsp;accept 操作</li></ol></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:77.70550161812298px;top:181px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><h3 style="text-align:left">评审内容</h3><p style="text-align:left">&nbsp;</p><ul><li>代码风格</li><li>健壮性</li><li>架构/设计</li><li>性能</li><li>……</li></ul></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:79px;top:270px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><h1>3 自动化测试</h1></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:77.70550161812298px;top:100px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><h2>3.1&nbsp;测试工具</h2></article></div><div style="left:79px;top:220px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><ul><li style="text-align:left">测试框架 <u>Mocha</u></li><li style="text-align:left">断言库 <u>Chai</u></li><li style="text-align:left">覆盖率工具&nbsp;<u>Istanbul</u>/<u>Karma-coverage</u></li><li style="text-align:left">HTTP 测试工具 <u>SuperTest</u>（后端）</li><li style="text-align:left">测试执行过程管理工具 <u>Karma</u>（前端）</li><li style="text-align:left">Headless 浏览器 <u>PhantomJS</u>（前端）</li><li style="text-align:left">浏览器自动化任务&nbsp;<u>Nightmare</u>（前端）</li></ul></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:79px;top:100px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><h2>3.2&nbsp;单元测试</h2></article></div><div style="left:79px;top:340px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><ul><li style="text-align: left;">单元测试就是最小代码单元的针对性测试，可以是对象的一个属性，检查是否存在或值是否有效等等；也可以是一个函数或方法，检查其行为或输出是否如预期或者代码执行效能等等。</li></ul></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:79px;top:2.5566343042071367px;width:800px;height:698.0582524271845px;" class="at-block at-block--pure"><article class="at-block-content MarkdownBlock"><pre class="hljs"><code class="lang-js"><span class="hljs-comment">// 导入 Vue.js 和组件，进行测试</span>
+import Vue from <span class="hljs-string">'vue'</span>
+import MyComponent from <span class="hljs-string">'path/to/MyComponent.vue'</span>
+<span class="hljs-comment">// 这里是一些 Jasmine 2.0 的测试，你也可以使用你喜欢的任何断言库或测试工具。</span>
+describe(<span class="hljs-string">'MyComponent'</span>, () =&gt; {
+  <span class="hljs-comment">// 检查原始组件选项</span>
+  it(<span class="hljs-string">'has a created hook'</span>, () =&gt; {
+    expect(typeof MyComponent.created).toBe(<span class="hljs-string">'function'</span>)
+  })
+  <span class="hljs-comment">// 评估原始组件选项中的函数的结果</span>
+  it(<span class="hljs-string">'sets the correct default data'</span>, () =&gt; {
+    expect(typeof MyComponent.data).toBe(<span class="hljs-string">'function'</span>)
+    <span class="hljs-keyword">const</span> defaultData = MyComponent.data()
+    expect(defaultData.message).toBe(<span class="hljs-string">'hello!'</span>)
+  })
+  <span class="hljs-comment">// 检查mount中的组件实例</span>
+  it(<span class="hljs-string">'correctly sets the message when created'</span>, () =&gt; {
+    <span class="hljs-keyword">const</span> vm = <span class="hljs-keyword">new</span> Vue(MyComponent).$mount()
+    expect(vm.message).toBe(<span class="hljs-string">'bye!'</span>)
+  })
+  <span class="hljs-comment">// 创建一个实例并检查渲染输出</span>
+  it(<span class="hljs-string">'renders the correct message'</span>, () =&gt; {
+    <span class="hljs-keyword">const</span> Ctor = Vue.extend(MyComponent)
+    <span class="hljs-keyword">const</span> vm = <span class="hljs-keyword">new</span> Ctor().$mount()
+    expect(vm.$el.textContent).toBe(<span class="hljs-string">'bye!'</span>)
+  })
+})
+</code></pre>
+</article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:53.110032362459556px;top:38.80258899676377px;width:867.3139158576053px;height:639.8058252427185px;" class="at-block at-block--pure"><article class="at-block-content MarkdownBlock"><pre class="hljs"><code class="lang-js">import { nextTick } from <span class="hljs-symbol">'core</span>/util/env'
+
+describe(<span class="hljs-symbol">'nextTick'</span>, <span class="hljs-literal">()</span> =&gt; {
+  it(<span class="hljs-symbol">'accepts</span> a callback', <span class="hljs-keyword">done</span> =&gt; {
+    nextTick(<span class="hljs-keyword">done</span>)
+  })
+
+  it(<span class="hljs-symbol">'returns</span> undefined <span class="hljs-keyword">when</span> passed a callback', <span class="hljs-literal">()</span> =&gt; {
+    expect(nextTick(<span class="hljs-literal">()</span> =&gt; {})).toBeUndefined<span class="hljs-literal">()</span>
+  })
+
+  <span class="hljs-keyword">if</span> (typeof <span class="hljs-type">Promise</span> !== <span class="hljs-symbol">'undefined'</span>) {
+    it(<span class="hljs-symbol">'returns</span> a <span class="hljs-type">Promise</span> <span class="hljs-keyword">when</span> provided no callback', <span class="hljs-keyword">done</span> =&gt; {
+      nextTick<span class="hljs-literal">()</span>.<span class="hljs-keyword">then</span>(<span class="hljs-keyword">done</span>)
+    })
+
+    it(<span class="hljs-symbol">'returns</span> a <span class="hljs-type">Promise</span> <span class="hljs-keyword">with</span> a context argument <span class="hljs-keyword">when</span> provided a falsy callback <span class="hljs-keyword">and</span> an object', <span class="hljs-keyword">done</span> =&gt; {
+      const obj = {}
+      nextTick(undefined, obj).<span class="hljs-keyword">then</span>(ctx =&gt; {
+        expect(ctx).toBe(obj)
+        <span class="hljs-keyword">done</span><span class="hljs-literal">()</span>
+      })
+    })
+    ...
+</code></pre>
+</article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:79px;top:100px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><h2>3.3&nbsp;集成测试</h2></article></div><div style="left:81.58899676375404px;top:340px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><ul><li style="text-align:left">测试若干代码单元整合行为的结果，模拟一种行为的开始（比如路由跳转）然后测试结果的预期（如当前路径）</li><li style="text-align:left">又称作联合测试、端到端测试（E2E）</li></ul></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:42.75404530744337px;top:107.41100323624596px;width:878.9644012944984px;height:500px;" class="at-block at-block--pure"><article class="at-block-content MarkdownBlock"><pre class="hljs"><code class="lang-js"><span class="hljs-built_in">module</span>.exports = {
+  <span class="hljs-string">'markdown'</span>: <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-params">(browser)</span></span> {
+    browser
+    .url(<span class="hljs-string">'http://localhost:8080/examples/markdown/'</span>)
+      .waitForElementVisible(<span class="hljs-string">'#editor'</span>, <span class="hljs-number">1000</span>)
+      .<span class="hljs-built_in">assert</span>.value(<span class="hljs-string">'textarea'</span>, <span class="hljs-string">'# hello'</span>)
+      .<span class="hljs-built_in">assert</span>.hasHTML(<span class="hljs-string">'#editor div'</span>, <span class="hljs-string">'&lt;h1 id="hello"&gt;hello&lt;/h1&gt;'</span>)
+      .setValue(<span class="hljs-string">'textarea'</span>, <span class="hljs-string">'\n## foo\n\n- bar\n- baz'</span>)
+      // <span class="hljs-built_in">assert</span> the output is <span class="hljs-keyword">not</span> updated yet because of debounce
+      .<span class="hljs-built_in">assert</span>.hasHTML(<span class="hljs-string">'#editor div'</span>, <span class="hljs-string">'&lt;h1 id="hello"&gt;hello&lt;/h1&gt;'</span>)
+      .waitFor(<span class="hljs-number">500</span>)
+      .<span class="hljs-built_in">assert</span>.hasHTML(<span class="hljs-string">'#editor div'</span>,
+        <span class="hljs-string">'&lt;h1 id="hello"&gt;hello&lt;/h1&gt;\n'</span> +
+        <span class="hljs-string">'&lt;h2 id="foo"&gt;foo&lt;/h2&gt;\n'</span> +
+        <span class="hljs-string">'&lt;ul&gt;\n&lt;li&gt;bar&lt;/li&gt;\n&lt;li&gt;baz&lt;/li&gt;\n&lt;/ul&gt;'</span>
+      )
+      .<span class="hljs-keyword">end</span>()
+  }
+}
+</code></pre>
+</article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:79px;top:110px;width:800px;height:500px;" class="at-block at-block--pure"><article class="at-block-content MarkdownBlock"><pre class="hljs"><code class="lang-js">describe('GET /users', function() {
+  it('respond with json', function() {
+    return request(<span class="hljs-name">app</span>)
+      .get('/users')
+      .set('Accept', 'application/json')
+      .expect(<span class="hljs-number">200</span>)
+      .then(<span class="hljs-name">response</span> =&gt; {
+          assert(<span class="hljs-name">response</span>.body.email, 'foo@bar.com')
+      })
+  })<span class="hljs-comment">;</span>
+})<span class="hljs-comment">;</span>
+</code></pre>
+</article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:80.29449838187702px;top:270px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><h1>4&nbsp;持续集成、持续部署</h1></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:88.06148867313917px;top:62.11650485436895px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><ul><li style="text-align: left;">持续集成是一种软件开发实践。在持续集成中，团队成员频繁集成他们的工作成果，一般每人每天至少集成一次，也可以多次。每次集成会经过自动构建（包括自动测试）的检验，以尽快发现集成错误。</li></ul><p style="text-align:left">&nbsp;</p><ul><li style="text-align: left;">通俗地说，就是指对于开发人员的每一次代码提交，都自动地把 repo 中所有代码 check out 到一个空目录，并且自动运行所有 test case。如果成功则接受这次提交，否则告诉所有人，这是一个失败的 revision。</li></ul><p style="text-align:right"><span style="font-size:18px">（参考 https://www.martinfowler.com/articles/continuousIntegration.html）</span></p></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:78.70550161812298px;top:100px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><ul><li style="text-align: left;">价值：及时发现和解决代码故障，提高代码质量，减少故障处理成本等。</li></ul><p style="text-align: left;">&nbsp;</p><ul><li style="text-align: left;">常用的持续集成服务有 Jenkins、Travis CI、Gitlab CI 等。</li></ul><p style="text-align: left;">&nbsp;</p><ul><li style="text-align: left;">在其提供的 deploy stage、custom script 、after-success step 等类似的功能中可以定义自动部署工作，在每次构建成功之后部署到指定的环境，即为持续部署。</li></ul></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:54.40453074433657px;top:-0.09385113268606915px;width:845.3074433656958px;height:701.9417475728156px;" class="at-block at-block--pure"><article class="at-block-content MarkdownBlock"><p>以 Gitlab CI 为例，编写 .gitlab-ci.yml 文件：</p>
+<pre class="hljs"><code class="lang-yml"><span class="hljs-attribute">image</span>: node:7
+
+<span class="dts"><span class="hljs-symbol">before_script:</span>
+  - yarn install
+<span class="hljs-symbol">
+job_build:</span>
+<span class="hljs-symbol">  stage:</span> build
+<span class="hljs-symbol">  script:</span>
+    - yarn start
+<span class="hljs-symbol">
+job_test:</span>
+<span class="hljs-symbol">  stage:</span> test
+<span class="hljs-symbol">  script:</span>
+    - yarn test
+<span class="hljs-symbol">  only:</span>
+    - master
+<span class="hljs-symbol">
+job_deploy:</span>
+<span class="hljs-symbol">  stage:</span> deploy
+<span class="hljs-symbol">  script:</span>
+    - bash deploy/deploy.sh
+<span class="hljs-symbol">  only:</span>
+    - master</span>
+</code></pre>
+</article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:79px;top:270px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><h1>5 线上监控</h1></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:77.70550161812298px;top:220px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><ul><li>监控是否可用，出现重大故障及时告警</li><li>对性能与错误进行记录、统计、分析</li><li>结合其他工具定位问题、修复问题</li></ul></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:88.06148867313917px;top:148.93203883495144px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><p style="text-align:left">商业：<u>New Relic</u>, <u>OneAPM</u>, <u>Sentry</u>, etc</p><p style="text-align:left">付费、使用简单</p><p style="text-align:left">&nbsp;</p><p style="text-align:left">开源：<u>Sentry</u>, etc</p><p style="text-align:left">免费、自行部署服务端（推荐使用 Docker Image 部署）</p><p style="text-align:left">&nbsp;</p><p style="text-align:left">使用方式：在程序中置入 SDK，即可开始监控</p><p style="text-align:left">支持平台：前端、后端均支持</p></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="width:988.4789644012945px;height:617.799352750809px;left:-14.239482200647247px;top:36.37216828478965px;" class="at-block at-block--pure"><article class="at-block-content"><img src="./assets/newrelic.jpeg" /></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="width:893.9805825242719px;height:368.7669902912621px;left:36.24595469255662px;top:-92.13915857605177px;" class="at-block at-block--pure"><article class="at-block-content"><img src=./assets/sentry_1.png /></article></div><div style="width:893.9805825242719px;height:501.6224379719525px;left:36.362459546925564px;top:300.7900035958289px;" class="at-block at-block--pure"><article class="at-block-content"><img src=./assets/sentry_2.png /></article></div><div style="left:58.28802588996764px;top:256.2459546925566px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><p><span style="font-size:12px">本页两张图片来自&nbsp;<a href="https://laravel-china.org/topics/2978/laravel-learning-notes-errors-tracking-artifact-sentry">Laravel China</a>，仅作示例</span></p></article></div></section><section data-notes="" data-background-video-loop="true" data-background-video-muted="true" data-background-color="" data-transition="slide-in slide-out"><div style="left:80px;top:260px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><h1>END.</h1></article></div><div style="left:72px;top:384px;width:800px;" class="at-block at-block--pure"><article class="at-block-content"><p><span style="font-size:22px">自豪的采用 <a href="http://yanshuo.io">@演说.io</a></span></p></article></div></section><style>.at-block{ position:absolute }</style></div></div></div>
+
+    <!-- dependencies -->
+		<script src="./assets/head.min.js"></script>
+		<script src="./assets/reveal.min.js"></script>
+
+    <!-- init -->
+    <script>
+      Reveal.initialize({
+        controls: true,
+        history: true,
+        center: false,
+
+        transition:             'slide',
+        backgroundTransition:   'default',
+        transitionSpeed:        'default',
+
+        // no marked.js
+				// no markdown.js
+				// no highlight.js
+				dependencies: [
+					{ src: './assets/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: './assets/zoom.js', async: true },
+					{ src: './assets/notes.js', async: true }
+				]
+      });
+    </script>
+  </body>
+</html>
